@@ -64,7 +64,7 @@ public abstract class Monster {
         if (this == o) return true;
         if (!(o instanceof Monster)) return false;
         Monster monster = (Monster) o;
-        return Objects.equals(getName(), monster.getName()) && Objects.equals(getAction(), monster.getAction());
+        return Objects.equals(getName(), monster.getName());
     }
 
     @Override
